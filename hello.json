@@ -1,0 +1,23 @@
+{
+  "name": "Homepage Customization",
+  "title": "Introductory Customizer App",
+  "description": "Inserts text into IBM Connections Homepage",
+  "services": [
+    "Customizer"
+  ],
+  "extensions": [
+    {
+      "payload": {
+        "include-files": [
+          "helloDNUG/hello.js"
+        ],
+	      "include-repo":{
+	       "name": "helloDNUG"
+	     }
+      },
+      "name": "Hello DNUG Extension",
+      "type": "com.ibm.customizer.ui",
+      "path": "homepage"
+    }
+  ]
+}
