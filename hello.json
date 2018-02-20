@@ -9,10 +9,10 @@
     {
       "payload": {
         "include-files": [
-          "helloDNUG/hello.js"
+          "HelloDNUG/hello.js"
         ],
 	      "include-repo":{
-	       "name": "helloDNUG"
+	       "name": "HelloDNUG"
 	     }
       },
       "name": "Hello DNUG Extension",
